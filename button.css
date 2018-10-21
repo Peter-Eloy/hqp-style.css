@@ -1,0 +1,38 @@
+@CHARSET "ISO-8859-1";
+
+.button {
+	background-color: #3c9bbd; /* Blue */
+	border: none;
+	color: white;
+	padding: 16px 1px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	-webkit-transition-duration: 0.4s; /* Safari */
+	transition-duration: 0.4s;
+	cursor: pointer;
+
+}
+
+.button1 {
+	background-color: #ffffff;
+	color: black;
+	border: 2px solid #f2f2f2;
+}
+
+.botones1 a{
+	text-align: left;
+}
+
+.Beginnenjetzt a {
+	width: 99.5%;
+	font-size: 2rem;
+	color: #ebebeb;
+}
+
+.Beginnenjetzt a:hover {
+	font-weight: 700;
+	color: #ffffff;
+}

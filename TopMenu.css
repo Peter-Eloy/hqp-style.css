@@ -1,0 +1,31 @@
+@CHARSET "ISO-8859-1";
+
+.OnTopMenu {
+	display: flex;
+	display: -webkit-flex;
+}
+
+.LogoPic {
+	display: inline-block;
+}
+
+.TopHQP {
+	text-align: center;
+	letter-spacing: 3px;
+	word-spacing: 7px;
+	margin-top: 25px;
+}
+
+/*   INTENTO DE FIJAR LOGO A LA DRCH/IZQ POR id 
+			
+			#wrapper {
+				overflow: auto;
+				}
+				
+			#izqLogo {
+				float: left;
+				}
+				
+			#drchLog {
+				float: right;
+				}  */

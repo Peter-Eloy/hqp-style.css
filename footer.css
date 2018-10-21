@@ -1,0 +1,92 @@
+@CHARSET "ISO-8859-1";
+/* hecho por websparadise.com  para www.pachamamainca.com y www.hqp.com */
+
+footer {
+	text-align: center;
+}
+
+.site-info {
+	/* background: ; */
+	display: block;
+}
+
+.site-footer {
+	padding: 0 7.6923% 1.75em;
+	text-align: center;	
+	display: inline;
+	width: 100%;
+}
+.site-footer p {
+	position: relative;
+	font-size: 0.7rem;
+	display: inline;
+	color: #cac8c8;
+}
+
+.b-footer {
+	display: block;
+	position: relative;
+	margin: 1em 0;
+	float: left;
+	width: 100%;
+	text-align: left;
+	background-color: #333333;
+	padding: 0.8em;
+}
+.f-area {
+	display: inline-block;
+	width: 30%;
+	margin-left: 0;
+	margin-right: 0.9em;
+	padding: 0.8em;
+}
+
+.link-home {
+	padding-bottom: 0;
+	margin-left: 0.5em;
+	display: inline-block;
+	font-size: medium;
+}
+.link-home a:hover {
+	text-decoration: none;
+
+}
+.link-home a:hover,
+.link-home a:focus {
+	text-decoration: none;
+}
+.u_social-footer { 
+	margin-top: 1em; 
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 16px; 
+	display: inline;
+	position: absolute;
+	z-index: 9999;
+	left: auto;
+	clear: both;
+	right: 0.5em;
+	width: 25%;
+}
+.u_social-footer span { 
+	margin: 0; 
+	display: inline;
+	float: left;
+	padding: 0.250em;
+}
+.u_social-footer a { 
+	color: #8d8b8b;
+	display: inline-block;
+	line-height: 1.3125;
+	outline-offset: -1px;
+	padding: 0.84375em 0;
+	margin: 0.2%;
+	position: relative;
+	text-decoration: none !important;
+	float: left;
+}
+.u_social-footer a:hover,
+	.uli_social-footer span:hover { 
+	color: #F0600D; 
+	text-decoration: none !important;
+}

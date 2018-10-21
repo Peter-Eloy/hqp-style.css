@@ -1,0 +1,177 @@
+@CHARSET "ISO-8859-1";
+
+body {
+	font-family: "Trebuchet MS", Arial;
+}
+/*
+.main {
+	width: 100%;
+	display: flex;
+	display: -webkit-flex;
+	-webkit-flex-flow: row wrap;
+	flex-flow: row wrap;
+	-webkit-justify-content: space-around;
+} */
+
+.form {
+	padding-top: 2em;
+	align-content: space-around;
+	display: flex;
+}
+.formulario {
+	display: inline-block;
+	float: left;
+}
+.marketinglog {
+	align-content: center;
+}
+
+/* Blocke 1 */
+/* imagen y div encima */
+.encima {
+	text-shadow: 0 0 5px #ffffff;
+}
+.encima p {
+	font-size: 50px;
+	color: #ffffff;
+}
+.encima h1 {
+	color: #3fd3f3;
+	font-size: 60px;
+}
+#blockOne {
+    width: 100%;
+    display: inline;
+    position: relative;
+}
+#fondoImg1 {
+    opacity: 0.5;
+}
+#fondoImg1 img {
+    width: 100%;
+    height: auto;
+}
+.container1 {
+	display: -webkit-box;
+}
+#container {
+	width: auto;
+	height: auto;
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    margin: 2em;
+}
+/* blocke dos */
+#blockTwo {
+	display: flex;
+	margin: 1.5em;
+}
+.TopTwo {
+	text-align: center;
+	padding-right: 2em;
+}
+.blueText {
+	color: #3fd3f3;
+	font-size: 40px;
+	margin: 0px;
+}
+.BodyTwo {
+}
+
+/*blocke tres */
+#blockThree {
+	display: inline-flex;
+	margin-top: 2em;
+	margin-bottom: 2em;
+	list-style-type: circle;
+	width: 100%;
+}
+
+.imgThree {
+	padding-right: 6em;
+	padding-left: 5em;
+}
+
+.bodyThree {
+	margin: 5px;
+	text-align: center;
+}
+
+.ListThree {
+	text-align: center;
+	list-style-type: circle !important;
+}
+
+
+/* blocke cuatro */
+#containerFour {
+	position: relative;
+}
+
+#containerFour img {
+	width: 100%;
+	height: auto;
+	max-height: 493px !important;
+	min-height: 300px !important;
+	opacity: 0.1;
+}
+
+#OnTop4 {
+	position: absolute;
+	left: 0;
+	top: 10%;
+	width: 100%; text-align : center;
+	font-size: 18px;
+	text-align: center;
+}
+
+.Titel4 {
+	color: #3fd3f3;
+	font-size: x-large;
+}
+
+.List4 {
+	display: inline-flex;
+}
+
+.Paises4 {
+	padding: 2em;
+}
+
+/* Blocke 5 */
+.blockFive {
+	text-align: center;
+	width: 100%;
+}
+
+.Titel5 {
+	color: #3fd3f3;
+	font-size: x-large;
+	width: 100%;
+}
+
+.disapear5 {
+	display: flex;
+	width: auto;
+	height: auto;
+	word-wrap: breack-word;
+}
+
+.clientPic5 {
+	padding: 0.5em;
+}
+
+/* blockSix */
+.blockSix {
+	text-align: center;
+	width: 100%;
+}
+
+/* ids */
+#ca {
+}
+
+
+#ka {
+}

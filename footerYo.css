@@ -1,0 +1,41 @@
+@CHARSET "ISO-8859-1";
+
+.containFootMain {
+	background: #8d8b8b;
+}
+
+.containFoot {
+	display: flex;
+	width: 100%;
+	flex-flow: row wrap;
+	justify-content: space-between;
+}
+
+.social-footer {
+	color: #ffffff;
+	text-decoration: none !important;
+	margin: 2em;
+}
+
+.socialMed-footer {
+	font-size: 5;
+}
+
+.containFootHQP {
+	display: inline-flex;
+	flex-flow: row wrap;
+}
+
+.containFootHQP1 {
+	margin-right: 2em;
+}
+
+.REClog {
+	text-align: center;
+	margin: 1em;
+}
+
+.ultimo-footer {
+	align: center;
+	text-align: center;
+}

@@ -1,0 +1,154 @@
+@CHARSET "ISO-8859-1";
+
+@media screen and (max-width: 934px) {
+	.social-footer {
+		width: 40%;
+		margin: 2px;
+		margin-top: 2em;
+	}
+}
+
+@media screen and (max-width: 867px) {
+	.TopHQP {
+		margin-top: 10px;
+	}
+	
+	/*Blocke 3 */
+		#blockThree {
+		display: block;
+		padding: 2em;
+		text-align: center;
+	}
+	.bodyThree h2 {
+	padding-top: 1em;
+	text-decoration: underline;
+	}
+}
+
+@media screen and (max-width: 740px) {
+	/* blocke 4 */
+	.Titel4 {
+		display: none;
+	}
+	#OnTop4 {
+		top: 5%;
+	}
+}	
+
+
+@media screen and (max-width: 600px) {
+	.topnav a {
+		display: none;
+	}
+	.topnav a.icon {
+		float: right;
+		display: block;
+	}
+	li a {
+		display: block;
+		color: white;
+		text-align: left;
+		padding: 14px 16px;
+		text-decoration: none;
+	}
+	.topnav.responsive {
+		position: relative;
+	}
+	.topnav.responsive .icon {
+		position: absolute;
+		right: 0;
+		top: 0;
+	}
+	.topnav.responsive a {
+		float: none;
+		display: block;
+		text-align: left;
+	}
+	.OnTopMenu {
+		display: none !important;
+	}
+	#FromRight {
+		width: 100% !important;
+	}
+	/* Primera imagen */
+	.encima {
+		text-align: justify;
+	}
+	/* blocke dos */
+	#blockTwo {
+		display: block;
+		margin: 0em;
+	}
+	.TopTwo {
+		text-align: center;
+	}
+	.blueText {
+		color: #3fd3f3;
+		font-size: 25px;
+		margin: 0px;
+	}
+	.desaparece2 {
+		display: none;
+	}
+	.BodyTwo {
+		text-align: center;
+	}
+	/* blocke tres */
+	#blockThree {
+		display: block;
+		margin: 0em;
+		margin-bottom: 2em;
+		padding: 0em;
+		text-align: center;
+	}
+	.imgThree {
+		display: none;
+	}
+	
+	/* blocke 4 */
+	#OnTop4 {
+		top: 0%;
+	}
+	
+	/*Blocke 5 */
+	.disapear5 {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 565px) {
+	.containFoot {
+		display: flex;
+		width: 50%;
+		flex-flow: row wrap;
+		justify-content: space-between;
+	}
+}
+
+@media screen and (max-width: 525px) {
+	/* Primera imagen */
+	.encima p {
+		font-size: 25px;
+		color: #ffffff;
+	}
+	.encima h1 {
+		color: #245a6f;
+		font-size: 30px;
+	}
+	.container1 {
+		display: flex;
+		width: auto;
+		height: auto;
+		text-align: justify;
+	}
+	@media screen and (max-width: 400px) {
+		/* Primera imagen */
+		#container {
+			overflow: auto;
+			margin: 0.5em;
+		}
+		.ecnima {
+			display: none;
+		}
+	}
+}
